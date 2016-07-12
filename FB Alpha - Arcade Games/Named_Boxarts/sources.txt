@@ -1,0 +1,5 @@
+The initial images in this collection were gathered by using the ADB tool to match a complete set of FB Alpha 0.2.97.38 arcade ROMs with arcade database at [http://adb.arcadeitalia.net/] .
+
+The resulting images were sized at 512px wide and renamed based on the game titles in the XML DAT.
+
+The images were matched in this priority order: cabinet image > marquee art > decal. If no art is available from that database in any of these categories, there will not be an image for that ROM in the initial image set.
