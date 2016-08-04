@@ -20,6 +20,8 @@ The RetroArch XMB menu can display thumbnails for any game in a playlist.
     thumbnails/Playlist_Name/Named_Type/Game_Name.png
     ```
 
+5. Any `/` in the game name are replaced with `-` for thumbnail filenames
+
 ## Scrapper
 
     ./tgdb.pl retroarch/media/libretrodb/dat/Nintendo\ -\ Super\ Nintendo\ Entertainment\ System.dat  
