@@ -22,8 +22,9 @@ The RetroArch XMB menu can display thumbnails for any game in a playlist.
 
 5. The following characters are replaced with `_` in the filename:
     ```
-    &*/:`<>?\\|
+    &*/:`<>?\|
     ```
+6. Thumbnail images submitted to this repository should not be greater than 512px wide
 
 ## Scrapper
 
