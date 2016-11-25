@@ -4,7 +4,7 @@ The RetroArch XMB menu can display thumbnails for any game in a playlist.
 
 ![Screenshot](http://www.lakka.tv/doc/images/thumbnails.png)
 
-## Using and adding to the libretro thumbnail repository
+## Thumbnail repository layout
 
 1. The thumbnails are installed into the RetroArch config's `thumbnails` directory
 
@@ -13,18 +13,21 @@ The RetroArch XMB menu can display thumbnails for any game in a playlist.
     - `Named_Titles` Title screen snapshots
     - `Named_Boxarts` Boxart
 
-3. Images must be PNG
-
-4. They need to follow this naming convention:
+3. Thumbnail files need to follow this naming convention:
     ```
     thumbnails/Playlist_Name/Named_Type/Game_Name.png
     ```
 
-5. The following characters in playlist titles must be replaced with `_` in the corresponding thumbnail filename:
+4. The following characters in playlist titles must be replaced with `_` in the corresponding thumbnail filename:
     ```
     &*/:`<>?\|
     ```
-6. Thumbnail images submitted to this repository should not be greater than 512px wide. Images with native widths greater than this should be scaled down to 512px wide before submission.
+
+## Thumbnail submission guidelines
+
+1. Images must be PNG
+2. Images submitted to this repository should not be greater than 512px wide. Images with native widths greater than this should be scaled down to 512px wide before submission.
+3. When official boxart is not available for a system, as for example with arcade ROMs, it is acceptable to substitute promotional flyers. Boxart for unlicensced and prototype titles is welcome, but in no case should fan-made or mockup boxart be submitted.
 
 ## Thumbnail scraper tool
 
@@ -34,7 +37,7 @@ These example commands can be modified to scrape thumbnail images for other syst
     mogrify -format png -resize 512x Nintendo\ -\ Super\ Nintendo\ Entertainment\ System/Named_Boxarts/*.jpg
     rm Nintendo\ -\ Super\ Nintendo\ Entertainment\ System/Named_Boxarts/*.jpg
 
-Explanation:
+###Explanation:
 
 1. Retrieve the RetroArch database records for the Nintendo - Super Nintento Entertainment System
 2. Use the ImageMagick mogrify tool to convert a batch of jpg thumbnails to png format at the correct maximum width
