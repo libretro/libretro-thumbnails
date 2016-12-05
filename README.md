@@ -4,6 +4,14 @@ The RetroArch XMB menu can display thumbnails for any game in a playlist.
 
 ![Screenshot](http://www.lakka.tv/doc/images/thumbnails.png)
 
+## Help us put the thumbnails together
+
+1. See the out directory
+2. All missing thumbs are reported in the system text file.
+3. Files that do not match a database entry are reported in the orphan file.
+
+https://github.com/RobLoach/libretro-thumbnails-check
+
 ## Thumbnail repository layout
 
 1. The thumbnails are installed into the RetroArch config's `thumbnails` directory
