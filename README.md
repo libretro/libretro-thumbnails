@@ -4,14 +4,6 @@ The RetroArch XMB menu can display thumbnails for any game in a playlist.
 
 ![Screenshot](http://www.lakka.tv/doc/images/thumbnails.png)
 
-## Help us put the thumbnails together
-
-1. See the out directory
-2. All missing thumbs are reported in the system text file.
-3. Files that do not match a database entry are reported in the orphan file.
-
-https://github.com/RobLoach/libretro-thumbnails-check
-
 ## Thumbnail repository layout
 
 1. The thumbnails are installed into the RetroArch config's `thumbnails` directory
@@ -36,6 +28,7 @@ https://github.com/RobLoach/libretro-thumbnails-check
 1. Images must be PNG
 2. Images submitted to this repository should not be greater than 512px wide. Images with native widths greater than this should be scaled down to 512px wide before submission.
 3. When official boxart is not available for a system, as for example with arcade ROMs, it is acceptable to substitute promotional flyers. Boxart for unlicensced and prototype titles is welcome, but in no case should fan-made or mockup boxart be submitted.
+4. Use [RobLoach/libretro-thumbnails-check](https://github.com/RobLoach/libretro-thumbnails-check) to check for missing thumbnails and/or orphaned files.
 
 ## Thumbnail scraper tool
 
