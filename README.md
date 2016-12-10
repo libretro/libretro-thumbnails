@@ -28,6 +28,7 @@ The RetroArch XMB menu can display thumbnails for any game in a playlist.
 1. Images must be PNG
 2. Images submitted to this repository should not be greater than 512px wide. Images with native widths greater than this should be scaled down to 512px wide before submission.
 3. When official boxart is not available for a system, as for example with arcade ROMs, it is acceptable to substitute promotional flyers. Boxart for unlicensced and prototype titles is welcome, but in no case should fan-made or mockup boxart be submitted.
+4. Use [RobLoach/libretro-thumbnails-check](https://github.com/RobLoach/libretro-thumbnails-check) to check for missing thumbnails and/or orphaned files.
 
 ## Thumbnail scraper tool
 
