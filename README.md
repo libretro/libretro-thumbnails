@@ -38,7 +38,7 @@ These example commands can be modified to scrape thumbnail images for other syst
     mogrify -format png -resize 512x Nintendo\ -\ Super\ Nintendo\ Entertainment\ System/Named_Boxarts/*.jpg
     rm Nintendo\ -\ Super\ Nintendo\ Entertainment\ System/Named_Boxarts/*.jpg
 
-###Explanation:
+### Explanation:
 
 1. Retrieve the RetroArch database records for the Nintendo - Super Nintento Entertainment System
 2. Use the ImageMagick mogrify tool to convert a batch of jpg thumbnails to png format at the correct maximum width
