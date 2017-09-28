@@ -1,3 +1,7 @@
+# MOVED
+
+[libretro-thumbnails](https://github.com/libretro-thumbnails) has moved over to https://github.com/libretro-thumbnails/libretro-thumbnails .
+
 # libretro-thumbnails
 
 The RetroArch XMB menu can display thumbnails for any game in a playlist.
